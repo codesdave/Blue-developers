@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Blue developers Directory</title>
+        <link rel="stylesheet" href="css/fill.css">
+    </head>
+
+  <body>
+        
+    
+    <div id="container">
+        <div id="header">
+            <h1><span class="blue-text">Blue</span> Developer Directory</h1>
+            <h2>Find a Developer <span class="white-text">Now</span></h2>
+
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="menuitem"><a href="index.html">Home</a></li>
+                <li class="menuitem"><a href="about.html">About Us</a></li>
+                <li class="menuitem"><a href="browse.html">Browse Developers</a></li>
+                <li class="menuitem"><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+
+        </div>
+        <div id="left-menu">
+            <h3>links</h3>
+            <ul>
+                <li><a href="browse.html">SEO</a></li>
+                <li><a href="browse.html">PHP</a></li>
+                <li><a href="browse.html">AJAR</a></li>
+                <li><a href="browse.html">JQUERY</a></li>
+                <li><a href="browse.html">WEB Design</a></li>
+                <li><a href="browse.html">WEB PROGRAMMING</a></li>
+                <li><a href="browse.html">CONTENT CREATION</a></li>
+                <li><a href="browse.html">INTERNET MARKETING</a></li>
+                <li><a href="browse.html">XHTML TEMPLATE</a></li>
+               
+            </ul>
+        </div>
+<div id="content">
+    
+    <div style="padding: 10px;">
+        <h3>
+            Contact us
+        </h3>
+        <p>
+            please use this form to contact a member of our team
+        </p>
+         <p>
+                  <form action="process.php" method="POST">
+                  <label for="name">Full Name</label>
+                <input type="text" name="name">
+
+           
+            </p>
+            <p>
+                <label for="email">email adress</label>
+                <input type="text" name="email">
+
+            </p>
+            <label for="phone">phone number</label>
+            <input type="text" name="phome">
+
+
+            <p>
+                <label for="call">Best time to call</label>
+                <input type="radio" name="call" value="morning" checked>Morning
+                <input type="radio" name="call" value="afternoon">afternoon
+                <input type="radio" name="call" value="Evening">Evening
+
+
+            </p>
+            <p>
+                <label for="budget">Budget</label>
+              
+                <select name="budget" type="list" >
+                    <option>--select one--</option>
+                    <option value="100-500">$100-500</option>
+                    <option value="1000-2000">$1000-2000</option>
+                    <option value="3000-5000">$3000-5000</option>
+                    <option value="5000-6000">$5000-$6000</option>
+                    <option value="not sure">not sure</option>
+
+                </select>
+            </p>
+            <p>
+                <label for="service">Services needed: (Check all that apply)</label>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="service" value="html">html</td>
+                        <td><input type="checkbox" name="service" value="php">php</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="service" value="ASP">ASP</td>
+                        <td><input type="checkbox" name="service" value="JAVA">JAVA</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="service" value="C++">C++</td>
+                        <td><input type="checkbox" name="service" value="Design">Design</td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="submit form">
+            </p>
+
+        </form>
+
+    </div>
+    </div>
+    
+</body>
